@@ -1,0 +1,14 @@
+import java.util.Scanner;
+class Main{
+	public static void main (String[] args){
+	 Scanner in = new Scanner(System.in);
+     int n = in.nextInt();
+     int sum = 0, temp = 0;
+      for (int count = 1; count <= n; count++)
+      { 
+                sum = sum +1;
+               temp =temp+sum;
+      }
+      System.out.println(temp);
+	}
+}
